@@ -1,0 +1,98 @@
+.message-output{
+    height: 70vh;
+    border: 1px solid lightgray;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.message-btn{
+    background-color: orange;
+    color: #f8f8f8;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.message-inner {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    font: 400 1em, sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #d1e7dd;
+    /* justify-content: flex-end; */
+}
+
+.outgoing-message{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/* .message{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+} */
+
+.incoming-message .message-inner {
+    background-color: #ffdab9;
+}
+
+.incoming-message {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.message-timestamp-left {
+    font-size: 0.85em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.message-sender {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.message-date-indicator {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.conversation-info {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+}
+
+.conversation-profile-pic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 10px auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* .message__container{
+    display: grid;
+    grid-template-columns: 5%, 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+

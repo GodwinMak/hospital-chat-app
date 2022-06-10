@@ -1,0 +1,35 @@
+.signup__bg{
+    background-image: url('../assets/login.jpg');
+    height: 92vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden ;
+}
+.signup-profile-pic__container{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.signup-profile-pic{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: grey;
+    background-color: transparent;
+    z-index: 99;
+    cursor: pointer;
+}
